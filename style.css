@@ -2,12 +2,69 @@ body{
     margin: 0;
 }
 
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;   
+    height: 400px;
+    padding-left: 60px;
+    padding-top: 60;
+}
+
+
+
 main{
     padding-left: 13%;
 }
 header{
     height: 15%;
     background-color: #b7291f;
+}
+
+.vertical_text{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#enviar_button{
+    width: 190px;
+        height: 50px;
+        background-color: #b7291f;
+        border: none;
+        color: white;
+        margin-left: 450px;
+        font-weight: bold;
+        font-size: 20px;
+}
+
+#email_line{
+    display: flex;
+    flex-direction: row;
+}
+
+#little_rect{
+    background-color: black;
+    height:1px;
+    width: 680px;
+    margin-top: 50px;
+    margin-left: -50px;
+}
+
+#email_button{
+    padding-left: 0;
+    width: 190px;
+        height: 50px;
+        background-color: #b7291f;
+        border: none;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+}
+
+#footer_letters{
+    font-size: 20px;
+    padding-top: 30px;
 }
 
 #title_below_info_text_title{
@@ -37,7 +94,29 @@ header{
     font-size: 20px;
     font-weight: bold;
 }
-    
+ 
+#carlos_solidario_image {
+    margin-top: -0.1%;
+}
+
+#carlos_solidario{
+    display: flex;
+    flex-direction: row;
+}
+
+#carlos_solidario_title_letters{
+    padding-top: 220px;
+   padding-left: 300px;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+#carlos_solidario_letters {
+    padding-top: 5px;
+    padding-left: 130px;
+    font-size: 24px;
+    width: 700px;
+}
 
 #title_below_info{
     display: flex;
